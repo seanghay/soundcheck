@@ -91,6 +91,13 @@ def cli(extension, input, output, recursive, jobs, quiet):
         ),
         f"{min_duration:.4f}",
         f"{max_duration:.4f}",
+      ],
+      [
+        f"{len(collections):,}",
+        f"{total_duration / 60 / 60:.4f} hrs",
+        f"{total_duration / len(collections):.4f}",
+        f"{min_duration:.4f}",
+        f"{max_duration:.4f}",
       ]
     ]
   )

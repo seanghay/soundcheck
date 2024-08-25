@@ -15,7 +15,7 @@ class AudioInfo:
 
 
 def audio_info(file):
-  with audioread.audio_open(file) as audio:
+  with audioread.audio_open(file.as_posix()) as audio:
     return AudioInfo(
       channels=audio.channels,
       sample_rate=audio.samplerate,

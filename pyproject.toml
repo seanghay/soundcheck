@@ -1,7 +1,7 @@
 [project]
 name = "soundcheck"
 description = "A multi-processing audio check"
-version = "0.0.1"
+version = "0.0.2"
 dependencies = ["audioread", "tqdm", "click", "prettytable", "format_duration"]
 license = { file = "LICENSE" }
 readme = "README.md"
